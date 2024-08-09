@@ -1,0 +1,6 @@
+@DCIBlog.Server_HostAddress = http://localhost:5007
+
+GET {{DCIBlog.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

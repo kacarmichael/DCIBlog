@@ -10,7 +10,7 @@ namespace DCIBlog.Server.Models
     {
         [Key]
         public int Id { get; set; }
-        public int ParentId { get; set; }
+        public int? ParentId { get; set; }
         public string Name { get; set; }
         public string MetaTitle { get; set; }
         public string Slug { get; set; }

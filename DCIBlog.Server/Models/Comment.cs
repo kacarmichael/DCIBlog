@@ -12,7 +12,7 @@ namespace DCIBlog.Server.Models
         public int Id { get; set; }
         public User Author { get; set; }
         public string Content { get; set; }
-        public int ParentId { get; set; }
+        public int? ParentId { get; set; }
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime CreatedAt { get; set; }
         public BlogPost BlogPost { get; set; }

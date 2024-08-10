@@ -4,6 +4,7 @@ using DCIBlog.Server.Utils;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DCIBlog.Server.Migrations
 {
     [DbContext(typeof(DCIDbContext))]
-    partial class DCIDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240810094455_TestingPosts")]
+    partial class TestingPosts
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -38,7 +41,7 @@ namespace DCIBlog.Server.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("CreatedAt")
+                    b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAddOrUpdate()
                         .HasColumnType("datetime2");
 

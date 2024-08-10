@@ -4,3 +4,7 @@ GET {{DCIBlog.Server_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST {{DCIBlog.Server_HostAddress}}/AddData/
+
+

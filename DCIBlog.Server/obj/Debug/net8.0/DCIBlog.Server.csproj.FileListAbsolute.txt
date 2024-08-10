@@ -256,3 +256,4 @@ C:\Users\kacar\Desktop\Data Projects\DCIBlog\DCIBlog\DCIBlog.Server\obj\Debug\ne
 C:\Users\kacar\Desktop\Data Projects\DCIBlog\DCIBlog\DCIBlog.Server\obj\Debug\net8.0\DCIBlog.Server.genruntimeconfig.cache
 C:\Users\kacar\Desktop\Data Projects\DCIBlog\DCIBlog\DCIBlog.Server\obj\Debug\net8.0\ref\DCIBlog.Server.dll
 C:\Users\kacar\Desktop\Data Projects\DCIBlog\DCIBlog\DCIBlog.Server\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\kacar\Desktop\Data Projects\DCIBlog\DCIBlog\DCIBlog.Server\obj\Debug\net8.0\DCIBlog.Server.sourcelink.json

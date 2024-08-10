@@ -22,9 +22,18 @@ namespace DCIBlog.Server.Controllers
         }
         
         [HttpPost]
-        public async void AddData()
+        public void AddData()
         {
+            for (int i = 0; i < 5; i++) 
+            {
+                _context.BlogPosts.Add(new BlogPost(
+                    title: "test",
+                    content: "test"
+                ));
 
+                _context.SaveChanges();
+            }
+            
         }
     }
 }
